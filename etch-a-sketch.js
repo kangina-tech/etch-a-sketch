@@ -19,7 +19,13 @@ ctx.lineWidth = 10;
 // ctx.stroke();
 
 // write a draw function
+let hue = 0;
+ctx.strokeStyle = `hsl(100, 100%, 50%)`;
+
 function draw({ key }) {
+    hue += 1;
+    ctx.strokeStyle = `hsl(${Math.random() * 360}, 100%, 50%)`;
+
     console.log(key);
     ctx.beginPath();
     ctx.moveTo(x, y);
@@ -36,6 +42,7 @@ function draw({ key }) {
     ctx.stroke();
 }
 
+// write handler for keys
 function handleKey(e) {
     if (e.key.includes('Arrow')) {
         e.preventDefault();
@@ -46,8 +53,6 @@ function handleKey(e) {
 }
 
 window.addEventListener('keydown', handleKey);
-
-// write handler for keys
 
 // clear or shake function
 
