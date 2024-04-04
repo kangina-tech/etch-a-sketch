@@ -13,7 +13,6 @@ ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
 ctx.lineWidth = 10;
 
-
 // write a draw function
 let hue = 0;
 ctx.strokeStyle = `hsl(100, 100%, 50%)`;
