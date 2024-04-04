@@ -16,7 +16,7 @@ To clear the screen and start again, press the shake button and begin your next 
 <kbd> <br> JavaScript <br> </kbd>
 
 # Purpose
-This is the first big JavaScript project in The Odin Project curriculum. [<kbd> <br> Etch-a-sketch <br> </kbd>][https://www.theodinproject.com/lessons/foundations-etch-a-sketch] 
+This is the first big JavaScript project in The Odin Project curriculum. [<kbd> <br> Etch-a-sketch <br> </kbd>](https://www.theodinproject.com/lessons/foundations-etch-a-sketch )
 
 The goal is to put together all that has been learnt thus far, throwing the learner deep into the programming world and showing half of what is expected of them at the end. The project, while given guidelines, does little in the way of holding the hand of the learner and it is up to them to figure it out in the end.
 
