@@ -8,6 +8,7 @@ To use the program effectively, use the arrow buttons.
 * Down for moving down.
 * Left for moving left.
 * Right for moving right.
+
 To clear the screen and start again, press the shake button and begin your next **Stary Night**!
 
 # Technologies
@@ -25,7 +26,7 @@ Including other technologies would be brilliant. The program could do with the v
 It could also do well with the option of saving projects so that they are not lost. While it will be a stray away from the original intent of the toy, updating that aspect in this while keeping the feel of the other does not impede the enjoyment of it.
 
 # Bug
-* Starts are random point.
+* Starts at are random points each reload.
 * Can only draw following one line.
 
 # How To Run It
