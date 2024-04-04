@@ -13,10 +13,6 @@ ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
 ctx.lineWidth = 10;
 
-// ctx.beginPath();
-// ctx.moveTo(x, y);
-// ctx.lineTo(x, y);
-// ctx.stroke();
 
 // write a draw function
 let hue = 0;
@@ -55,5 +51,15 @@ function handleKey(e) {
 window.addEventListener('keydown', handleKey);
 
 // clear or shake function
+function clearCanvas() {
+    canvas.classList.add('shake');
+    ctx.clearRect(0, 0, width, height);
+    canvas.addEventListener("animationend", function() {
+        console.log("Let's do the rumba!");
+        canvas.classList.remove('shake');
+        },
+        { once: true }
+    );
+}
 
-// listen for arrowkeys
+shakebutton.addEventListener("click", clearCanvas);
